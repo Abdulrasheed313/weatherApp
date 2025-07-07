@@ -1,0 +1,51 @@
+body{
+    background-image: url('./i\ \(3\).webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    animation: moveBg 30s linear infinite;
+}
+
+nav.navbar.navbar-light.bg-dark {
+    background-color: #0d0c4e00 !important;
+}
+button.btn.btn-dark.rounded-pill {
+    padding: 4px 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: -20px;
+}
+h1.text-center {
+    font-family: system-ui;
+    text-transform: capitalize;
+    font-size: 38px;
+   color: #0d0c4e;
+}
+.card{
+    background-color: #ffffffba;
+    text-align: center;
+    padding: 30px;
+    
+
+}
+.card-img, .card-img-bottom, .card-img-top {
+    width: 68%;
+    display: block;
+    margin: 0 auto;
+     animation: moveBg 30s linear infinite;
+}
+p.card-text {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+  @keyframes moveBg {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: 100% 0;
+      }
+    }
